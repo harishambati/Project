@@ -12,7 +12,7 @@ public class SearchFunctionalitySD {
 	
 	@Given("^the user launches the chrome browser and opens application$")
 	public void the_user_launches_the_chrome_browser_and_opens_application() throws Throwable {
-		search.launchApplication("https://demo.opencart.com/");
+		search.launchApplication("https://demo.opencart.com/", "chrome");
 
 	}
 

@@ -10,7 +10,7 @@ public class SearchComparisionSD {
 	 SearchComparision sc = new SearchComparision();
 	@Given("^the user launches the opens chrome & Application$")
 	public void the_user_launches_the_opens_chrome_Application() throws Throwable {
-	  sc.launchApplication("https://demo.opencart.com/");
+	  sc.launchApplication("https://demo.opencart.com/", "chrome");
 	}
 
 	@When("^the user searches for products on Application$")
@@ -25,7 +25,8 @@ public class SearchComparisionSD {
 
 	@Then("^Compares two products$")
 	public void compares_two_products() throws Throwable {
-	    sc.addToCompare();
+	    
+		sc.addToCompare();
 	}
 
 	@And("^the user should see results$")

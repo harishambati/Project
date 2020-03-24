@@ -10,7 +10,7 @@ public class SearchToExcelSD {
 	 SearchToExcel stxl = new SearchToExcel();
 	@Given("^the user launches the opens chrome and Application$")
 	public void the_user_launches_the_opens_chrome_and_Application() throws Throwable {
-	  stxl.launchApplication("https://demo.opencart.com/");
+	  stxl.launchApplication("https://demo.opencart.com/", "chrome");
 	}
 
 	@When("^the user searches for products$")
@@ -21,6 +21,7 @@ public class SearchToExcelSD {
 	@And("^Clicks on Search Button$")
 	public void clicks_on_Search_Button() throws Throwable {
 	 stxl.clickOnSearch(); 
+	 stxl.scroll();
 	}
 
 	@Then("^user should see results$")

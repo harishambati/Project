@@ -11,7 +11,7 @@ public class SearchFilterSD {
 	SearchFilter scfilter = new SearchFilter();
 	@Given("^the user launches the chrome browser & opens application$")
 	public void the_user_launches_the_chrome_browser_opens_application() throws Throwable {
-		scfilter.openBrowserAndApplication("https://demo.opencart.com/");
+		scfilter.openBrowserAndApplication("https://demo.opencart.com/", "chrome");
 	    
 	}
 

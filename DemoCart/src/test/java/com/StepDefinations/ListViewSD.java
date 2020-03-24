@@ -10,7 +10,7 @@ public class ListViewSD {
 	 SearchListView slv = new SearchListView();
 	@Given("^the user launches the opens chrome & application$")
 	public void the_user_launches_the_opens_chrome_application() throws Throwable {
-	  slv.launchApplication("https://demo.opencart.com/");
+	  slv.launchApplication("https://demo.opencart.com/", "chrome");
 	   
 	}
 

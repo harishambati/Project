@@ -50,28 +50,28 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 12500936600,
+  "duration": 12575020700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the_product()"
 });
 formatter.result({
-  "duration": 123925900,
+  "duration": 113340500,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 2001689900,
+  "duration": 1521005700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 132596400,
+  "duration": 138335700,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,28 +112,28 @@ formatter.match({
   "location": "SearchFilterSD.the_user_launches_the_chrome_browser_opens_application()"
 });
 formatter.result({
-  "duration": 11887602400,
+  "duration": 11302035900,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.the_user_searches_the_his_product()"
 });
 formatter.result({
-  "duration": 100214900,
+  "duration": 104557100,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.clicks_on_Search_button_Selects_the_the_sort_by_filter()"
 });
 formatter.result({
-  "duration": 3495792400,
+  "duration": 3354600000,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.the_user_should_see_modified_results()"
 });
 formatter.result({
-  "duration": 214882000,
+  "duration": 189984300,
   "status": "passed"
 });
 formatter.scenario({
@@ -174,28 +174,28 @@ formatter.match({
   "location": "SearchToExcelSD.the_user_launches_the_opens_chrome_and_Application()"
 });
 formatter.result({
-  "duration": 11358144700,
+  "duration": 13214312900,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.the_user_searches_for_products()"
 });
 formatter.result({
-  "duration": 81968700,
+  "duration": 77835000,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.clicks_on_Search_Button()"
 });
 formatter.result({
-  "duration": 1942941600,
+  "duration": 1915720400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.user_should_see_results()"
 });
 formatter.result({
-  "duration": 1120757600,
+  "duration": 1069851500,
   "status": "passed"
 });
 formatter.scenario({
@@ -241,35 +241,35 @@ formatter.match({
   "location": "SearchComparisionSD.the_user_launches_the_opens_chrome_Application()"
 });
 formatter.result({
-  "duration": 11882047800,
+  "duration": 11541085500,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.the_user_searches_for_products_on_Application()"
 });
 formatter.result({
-  "duration": 99890600,
+  "duration": 83952300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.clicks_on_search_button()"
 });
 formatter.result({
-  "duration": 1555802500,
+  "duration": 1859190300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.compares_two_products()"
 });
 formatter.result({
-  "duration": 227637300,
+  "duration": 154703300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.the_user_should_see_results()"
 });
 formatter.result({
-  "duration": 2027168400,
+  "duration": 1939035300,
   "status": "passed"
 });
 formatter.scenario({
@@ -310,28 +310,28 @@ formatter.match({
   "location": "ListViewSD.the_user_launches_the_opens_chrome_application()"
 });
 formatter.result({
-  "duration": 11649545000,
+  "duration": 11686096600,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.the_user_searches_for_products_on_application()"
 });
 formatter.result({
-  "duration": 105474600,
+  "duration": 104641600,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.clicks_on_search_button_and_click_on_List_View()"
 });
 formatter.result({
-  "duration": 1641559400,
+  "duration": 1985441400,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.results_should_be_viewed_in_List_View()"
 });
 formatter.result({
-  "duration": 2194227300,
+  "duration": 2268077300,
   "status": "passed"
 });
 });
