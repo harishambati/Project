@@ -2,11 +2,20 @@
 Feature: Open cart Search Feature
 
 @tc_01
-Scenario: Search Functionality
+Scenario Outline: Search Functionality
 Given the user launches the chrome browser and opens application
-When the user searches for the product
+When the user searches for the "<product>"
 And Clicks on Search button
 Then the user should see search results
+
+Examples:
+
+		|product|
+		|mac	|
+		|1233556|
+		|!@#$%^	|
+		|ma12@#$|
+
 
 @tc_02
 Scenario: Filter
