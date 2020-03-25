@@ -79,6 +79,13 @@ formatter.examples({
       ],
       "line": 16,
       "id": "open-cart-search-feature;search-functionality;;4"
+    },
+    {
+      "cells": [
+        "ma12@#$"
+      ],
+      "line": 17,
+      "id": "open-cart-search-feature;search-functionality;;5"
     }
   ],
   "keyword": "Examples"
@@ -128,7 +135,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 12531328701,
+  "duration": 15320846300,
   "status": "passed"
 });
 formatter.match({
@@ -141,21 +148,21 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 107042000,
+  "duration": 105497200,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 1897355001,
+  "duration": 2837031400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 109354399,
+  "duration": 166169500,
   "status": "passed"
 });
 formatter.scenario({
@@ -203,7 +210,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 12096788101,
+  "duration": 11371963900,
   "status": "passed"
 });
 formatter.match({
@@ -216,21 +223,21 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 69806800,
+  "duration": 89153100,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 2006726900,
+  "duration": 1664380400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 88588900,
+  "duration": 116928200,
   "status": "passed"
 });
 formatter.scenario({
@@ -278,7 +285,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 11944712501,
+  "duration": 11239463700,
   "status": "passed"
 });
 formatter.match({
@@ -291,25 +298,100 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 102788301,
+  "duration": 121648400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 1914318600,
+  "duration": 1587165300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 100562500,
+  "duration": 116834000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
+  "line": 17,
+  "name": "Search Functionality",
+  "description": "",
+  "id": "open-cart-search-feature;search-functionality;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@tc_01"
+    },
+    {
+      "line": 1,
+      "name": "@democart_Feature"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "the user launches the chrome browser and opens application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "the user searches for the \"ma12@#$\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Clicks on Search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the user should see search results",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
+});
+formatter.result({
+  "duration": 11373233400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ma12@#$",
+      "offset": 27
+    }
+  ],
+  "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
+});
+formatter.result({
+  "duration": 107012400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchFunctionalitySD.clicks_on_Search_button()"
+});
+formatter.result({
+  "duration": 1709452500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
+});
+formatter.result({
+  "duration": 114609200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 21,
   "name": "Filter",
   "description": "",
   "id": "open-cart-search-feature;filter",
@@ -317,28 +399,28 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 19,
+      "line": 20,
       "name": "@tc_02"
     }
   ]
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "the user launches the chrome browser \u0026 opens application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "the user searches for the product\u0027s",
   "keyword": "When "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "Clicks on Search button, selects the sort by filter",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "the user should see modified results",
   "keyword": "Then "
 });
@@ -346,32 +428,32 @@ formatter.match({
   "location": "SearchFilterSD.the_user_launches_the_chrome_browser_opens_application()"
 });
 formatter.result({
-  "duration": 11547509600,
+  "duration": 11566445700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.the_user_searches_the_his_product()"
 });
 formatter.result({
-  "duration": 96520299,
+  "duration": 156027700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.clicks_on_Search_button_Selects_the_the_sort_by_filter()"
 });
 formatter.result({
-  "duration": 3393450199,
+  "duration": 3477045000,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.the_user_should_see_modified_results()"
 });
 formatter.result({
-  "duration": 257503300,
+  "duration": 204748200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
+  "line": 28,
   "name": "Products to Excel",
   "description": "",
   "id": "open-cart-search-feature;products-to-excel",
@@ -379,28 +461,28 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 26,
+      "line": 27,
       "name": "@tc_03"
     }
   ]
 });
 formatter.step({
-  "line": 28,
+  "line": 29,
   "name": "the user launches the opens chrome and Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 29,
+  "line": 30,
   "name": "the user searches for products",
   "keyword": "When "
 });
 formatter.step({
-  "line": 30,
+  "line": 31,
   "name": "Clicks on Search Button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "user should see results",
   "keyword": "Then "
 });
@@ -408,32 +490,32 @@ formatter.match({
   "location": "SearchToExcelSD.the_user_launches_the_opens_chrome_and_Application()"
 });
 formatter.result({
-  "duration": 11699666599,
+  "duration": 11421014800,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.the_user_searches_for_products()"
 });
 formatter.result({
-  "duration": 87673600,
+  "duration": 77726000,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.clicks_on_Search_Button()"
 });
 formatter.result({
-  "duration": 2652661600,
+  "duration": 2992227700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.user_should_see_results()"
 });
 formatter.result({
-  "duration": 3128438301,
+  "duration": 1269096700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 34,
+  "line": 35,
   "name": "Comparision Screenshot",
   "description": "",
   "id": "open-cart-search-feature;comparision-screenshot",
@@ -441,33 +523,33 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 33,
+      "line": 34,
       "name": "@tc_04"
     }
   ]
 });
 formatter.step({
-  "line": 35,
+  "line": 36,
   "name": "the user launches the opens chrome \u0026 Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 36,
+  "line": 37,
   "name": "the user searches for products on Application",
   "keyword": "When "
 });
 formatter.step({
-  "line": 37,
+  "line": 38,
   "name": "Clicks on search button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
+  "line": 39,
   "name": "Compares two products",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "the user should see results",
   "keyword": "And "
 });
@@ -475,39 +557,39 @@ formatter.match({
   "location": "SearchComparisionSD.the_user_launches_the_opens_chrome_Application()"
 });
 formatter.result({
-  "duration": 11413423900,
+  "duration": 11370013800,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.the_user_searches_for_products_on_Application()"
 });
 formatter.result({
-  "duration": 81099901,
+  "duration": 91513600,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.clicks_on_search_button()"
 });
 formatter.result({
-  "duration": 1574073300,
+  "duration": 1871331300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.compares_two_products()"
 });
 formatter.result({
-  "duration": 194162899,
+  "duration": 154132300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.the_user_should_see_results()"
 });
 formatter.result({
-  "duration": 3068563401,
+  "duration": 3590969500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 42,
+  "line": 43,
   "name": "List View",
   "description": "",
   "id": "open-cart-search-feature;list-view",
@@ -515,28 +597,28 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 41,
+      "line": 42,
       "name": "@tc_05"
     }
   ]
 });
 formatter.step({
-  "line": 43,
+  "line": 44,
   "name": "the user launches the opens chrome \u0026 application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 45,
   "name": "the user searches for products on application",
   "keyword": "When "
 });
 formatter.step({
-  "line": 45,
+  "line": 46,
   "name": "Clicks on search button and click on List View",
   "keyword": "And "
 });
 formatter.step({
-  "line": 46,
+  "line": 47,
   "name": "Results should be viewed in List View",
   "keyword": "Then "
 });
@@ -544,28 +626,28 @@ formatter.match({
   "location": "ListViewSD.the_user_launches_the_opens_chrome_application()"
 });
 formatter.result({
-  "duration": 11594021500,
+  "duration": 11274212200,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.the_user_searches_for_products_on_application()"
 });
 formatter.result({
-  "duration": 94560000,
+  "duration": 92282200,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.clicks_on_search_button_and_click_on_List_View()"
 });
 formatter.result({
-  "duration": 1660098900,
+  "duration": 1742637900,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.results_should_be_viewed_in_List_View()"
 });
 formatter.result({
-  "duration": 2225287600,
+  "duration": 2262562900,
   "status": "passed"
 });
 });
