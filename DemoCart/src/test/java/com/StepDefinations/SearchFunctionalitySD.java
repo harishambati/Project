@@ -8,6 +8,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 public class SearchFunctionalitySD {
+	//Creating objective of SearchFunctionality class
 	SearchFunctionality search = new SearchFunctionality();
 
 	// Method to launch application in Chrome or Firefox

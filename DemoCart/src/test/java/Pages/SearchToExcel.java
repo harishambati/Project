@@ -13,6 +13,7 @@ import excelutility.SearchFunctExcel;
 
 public class SearchToExcel {
 	WebDriver driver;
+	//Locators
 	By searchbar = By.name("search");
 	By searchbutton = By.xpath("//*[@id='search']/span/button");
 

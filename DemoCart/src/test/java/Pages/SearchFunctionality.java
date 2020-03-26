@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SearchFunctionality {
 	WebDriver driver;
+	//Locators
 	By searchbar = By.name("search");
 	By searchbutton = By.xpath("//*[@id='search']/span/button");
 	By SearchHeader = By.xpath("//*[@id='content']/h1");

@@ -7,7 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SearchToExcelSD {
-	 SearchToExcel stxl = new SearchToExcel();
+	//Creating objective of SearchToExcel class
+	SearchToExcel stxl = new SearchToExcel();
 	 // Method to launch application in Chrome or Firefox
 	 @Given("^the user launches the opens chrome and Application$")
 	public void the_user_launches_the_opens_chrome_and_Application() throws Throwable {

@@ -7,7 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SearchComparisionSD {
-	 SearchComparision sc = new SearchComparision();
+	//Creating objective of SearchComparision class
+	SearchComparision sc = new SearchComparision();
 	 
 	 //Method to launch application in browser
 	 @Given("^the user launches the opens chrome & Application$")

@@ -8,6 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SearchFilterSD {
+	//Creating objective of SearchFilter class
 	SearchFilter scfilter = new SearchFilter();
 	// Method to launch application in Chrome or Firefox
 	@Given("^the user launches the chrome browser & opens application$")

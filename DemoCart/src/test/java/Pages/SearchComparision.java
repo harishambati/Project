@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SearchComparision {
 
 	WebDriver driver;
+	//Locators
 	By searchbar = By.name("search");
 	By searchbutton = By.xpath("//*[@id='search']/span/button");
 	By product1 = By.xpath("//div[@id='content']//div[1]//div[1]//div[2]//div[2]//button[3]//i[1]");

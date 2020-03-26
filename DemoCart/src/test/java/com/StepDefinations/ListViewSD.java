@@ -7,7 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class ListViewSD {
-	 SearchListView slv = new SearchListView();
+	//Creating objective of SearchListView class
+	SearchListView slv = new SearchListView(); 
 	 //Method to launch application in browser
 	 @Given("^the user launches the opens chrome & application$")
 	public void the_user_launches_the_opens_chrome_application() throws Throwable {

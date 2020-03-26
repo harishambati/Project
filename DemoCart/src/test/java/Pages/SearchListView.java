@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SearchListView {
 	WebDriver driver;
+	//Locators
 	By searchbar = By.name("search");
 	By searchbutton = By.xpath("//*[@id='search']/span/button");
 	By listview = By.id("list-view");

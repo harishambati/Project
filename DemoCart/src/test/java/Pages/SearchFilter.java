@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SearchFilter {
 
 	protected WebDriver driver;
+	//Locators
 	By searchbar = By.name("search");
 	By searchbutton = By.xpath("//*[@id='search']/span/button");
 	By filterbutton1 = By.id("input-sort");
