@@ -135,7 +135,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 15320846300,
+  "duration": 12220830900,
   "status": "passed"
 });
 formatter.match({
@@ -148,21 +148,21 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 105497200,
+  "duration": 82413400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 2837031400,
+  "duration": 2096729700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 166169500,
+  "duration": 123022900,
   "status": "passed"
 });
 formatter.scenario({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 11371963900,
+  "duration": 11665568400,
   "status": "passed"
 });
 formatter.match({
@@ -223,21 +223,21 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 89153100,
+  "duration": 109220400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 1664380400,
+  "duration": 1605405400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 116928200,
+  "duration": 127120300,
   "status": "passed"
 });
 formatter.scenario({
@@ -285,7 +285,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 11239463700,
+  "duration": 12251349300,
   "status": "passed"
 });
 formatter.match({
@@ -298,21 +298,21 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 121648400,
+  "duration": 90892400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 1587165300,
+  "duration": 1741537700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 116834000,
+  "duration": 106761700,
   "status": "passed"
 });
 formatter.scenario({
@@ -360,7 +360,7 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
 });
 formatter.result({
-  "duration": 11373233400,
+  "duration": 11411235800,
   "status": "passed"
 });
 formatter.match({
@@ -373,21 +373,21 @@ formatter.match({
   "location": "SearchFunctionalitySD.the_user_searches_for_the(String)"
 });
 formatter.result({
-  "duration": 107012400,
+  "duration": 98434100,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 1709452500,
+  "duration": 1560744100,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
 });
 formatter.result({
-  "duration": 114609200,
+  "duration": 121995400,
   "status": "passed"
 });
 formatter.scenario({
@@ -428,28 +428,28 @@ formatter.match({
   "location": "SearchFilterSD.the_user_launches_the_chrome_browser_opens_application()"
 });
 formatter.result({
-  "duration": 11566445700,
+  "duration": 11192147600,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.the_user_searches_the_his_product()"
 });
 formatter.result({
-  "duration": 156027700,
+  "duration": 94929400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.clicks_on_Search_button_Selects_the_the_sort_by_filter()"
 });
 formatter.result({
-  "duration": 3477045000,
+  "duration": 3323991000,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFilterSD.the_user_should_see_modified_results()"
 });
 formatter.result({
-  "duration": 204748200,
+  "duration": 239102100,
   "status": "passed"
 });
 formatter.scenario({
@@ -490,28 +490,28 @@ formatter.match({
   "location": "SearchToExcelSD.the_user_launches_the_opens_chrome_and_Application()"
 });
 formatter.result({
-  "duration": 11421014800,
+  "duration": 11270799200,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.the_user_searches_for_products()"
 });
 formatter.result({
-  "duration": 77726000,
+  "duration": 78208700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.clicks_on_Search_Button()"
 });
 formatter.result({
-  "duration": 2992227700,
+  "duration": 2074545600,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchToExcelSD.user_should_see_results()"
 });
 formatter.result({
-  "duration": 1269096700,
+  "duration": 1007822300,
   "status": "passed"
 });
 formatter.scenario({
@@ -557,35 +557,35 @@ formatter.match({
   "location": "SearchComparisionSD.the_user_launches_the_opens_chrome_Application()"
 });
 formatter.result({
-  "duration": 11370013800,
+  "duration": 11463033100,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.the_user_searches_for_products_on_Application()"
 });
 formatter.result({
-  "duration": 91513600,
+  "duration": 96643900,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.clicks_on_search_button()"
 });
 formatter.result({
-  "duration": 1871331300,
+  "duration": 1551346300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.compares_two_products()"
 });
 formatter.result({
-  "duration": 154132300,
+  "duration": 215776400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchComparisionSD.the_user_should_see_results()"
 });
 formatter.result({
-  "duration": 3590969500,
+  "duration": 2045049400,
   "status": "passed"
 });
 formatter.scenario({
@@ -626,28 +626,28 @@ formatter.match({
   "location": "ListViewSD.the_user_launches_the_opens_chrome_application()"
 });
 formatter.result({
-  "duration": 11274212200,
+  "duration": 11223507700,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.the_user_searches_for_products_on_application()"
 });
 formatter.result({
-  "duration": 92282200,
+  "duration": 91435300,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.clicks_on_search_button_and_click_on_List_View()"
 });
 formatter.result({
-  "duration": 1742637900,
+  "duration": 1622797700,
   "status": "passed"
 });
 formatter.match({
   "location": "ListViewSD.results_should_be_viewed_in_List_View()"
 });
 formatter.result({
-  "duration": 2262562900,
+  "duration": 2225030200,
   "status": "passed"
 });
 });
