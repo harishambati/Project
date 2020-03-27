@@ -3,7 +3,59 @@
     "line": 2,
     "elements": [
       {
-        "line": 14,
+        "line": 5,
+        "name": "Valid Login",
+        "description": "",
+        "id": "open-cart-search-feature;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10675673000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the application opens in browser",
+            "match": {
+              "location": "LoginSD.the_application_opens_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2924035100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on Login",
+            "match": {
+              "location": "LoginSD.the_user_clicks_on_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41836735900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user gives valid credentials",
+            "match": {
+              "location": "LoginSD.the_user_gives_valid_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc01_Login"
+          }
+        ]
+      },
+      {
+        "line": 20,
         "name": "Search Functionality",
         "description": "",
         "id": "open-cart-search-feature;search-functionality;;2",
@@ -12,10 +64,10 @@
         "steps": [
           {
             "result": {
-              "duration": 14160830100,
+              "duration": 11353569700,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user launches the chrome browser and opens application",
             "match": {
               "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
@@ -24,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 74101300,
+              "duration": 80188200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the user searches for the \"mac\"",
             "match": {
               "arguments": [
@@ -45,10 +97,10 @@
           },
           {
             "result": {
-              "duration": 2647104300,
+              "duration": 2103130000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 14,
             "name": "Clicks on Search button",
             "match": {
               "location": "SearchFunctionalitySD.clicks_on_Search_button()"
@@ -57,10 +109,10 @@
           },
           {
             "result": {
-              "duration": 118014600,
+              "duration": 108791200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 15,
             "name": "the user should see search results",
             "match": {
               "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
@@ -70,8 +122,8 @@
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@tc_01"
+            "line": 10,
+            "name": "@tc_02"
           },
           {
             "line": 1,
@@ -80,7 +132,7 @@
         ]
       },
       {
-        "line": 15,
+        "line": 21,
         "name": "Search Functionality",
         "description": "",
         "id": "open-cart-search-feature;search-functionality;;3",
@@ -89,10 +141,10 @@
         "steps": [
           {
             "result": {
-              "duration": 12449173600,
+              "duration": 12927422100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user launches the chrome browser and opens application",
             "match": {
               "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
@@ -101,10 +153,10 @@
           },
           {
             "result": {
-              "duration": 83548400,
+              "duration": 104372200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the user searches for the \"1233556\"",
             "match": {
               "arguments": [
@@ -122,10 +174,10 @@
           },
           {
             "result": {
-              "duration": 1503462500,
+              "duration": 1572258800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 14,
             "name": "Clicks on Search button",
             "match": {
               "location": "SearchFunctionalitySD.clicks_on_Search_button()"
@@ -134,10 +186,10 @@
           },
           {
             "result": {
-              "duration": 121788300,
+              "duration": 117699800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 15,
             "name": "the user should see search results",
             "match": {
               "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
@@ -147,8 +199,8 @@
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@tc_01"
+            "line": 10,
+            "name": "@tc_02"
           },
           {
             "line": 1,
@@ -157,7 +209,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 22,
         "name": "Search Functionality",
         "description": "",
         "id": "open-cart-search-feature;search-functionality;;4",
@@ -166,10 +218,10 @@
         "steps": [
           {
             "result": {
-              "duration": 11113743100,
+              "duration": 11817303200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user launches the chrome browser and opens application",
             "match": {
               "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
@@ -178,10 +230,10 @@
           },
           {
             "result": {
-              "duration": 103536300,
+              "duration": 134536500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the user searches for the \"!@#$%^\"",
             "match": {
               "arguments": [
@@ -199,10 +251,10 @@
           },
           {
             "result": {
-              "duration": 1601710100,
+              "duration": 1517830100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 14,
             "name": "Clicks on Search button",
             "match": {
               "location": "SearchFunctionalitySD.clicks_on_Search_button()"
@@ -211,10 +263,10 @@
           },
           {
             "result": {
-              "duration": 115257700,
+              "duration": 120595000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 15,
             "name": "the user should see search results",
             "match": {
               "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
@@ -224,8 +276,8 @@
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@tc_01"
+            "line": 10,
+            "name": "@tc_02"
           },
           {
             "line": 1,
@@ -234,7 +286,7 @@
         ]
       },
       {
-        "line": 17,
+        "line": 23,
         "name": "Search Functionality",
         "description": "",
         "id": "open-cart-search-feature;search-functionality;;5",
@@ -243,10 +295,10 @@
         "steps": [
           {
             "result": {
-              "duration": 11796035600,
+              "duration": 11507797200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "the user launches the chrome browser and opens application",
             "match": {
               "location": "SearchFunctionalitySD.the_user_launches_the_chrome_browser_and_opens_application()"
@@ -255,10 +307,10 @@
           },
           {
             "result": {
-              "duration": 109660900,
+              "duration": 98710500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 13,
             "name": "the user searches for the \"ma12@#$\"",
             "match": {
               "arguments": [
@@ -276,10 +328,10 @@
           },
           {
             "result": {
-              "duration": 1502724100,
+              "duration": 1518357100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 14,
             "name": "Clicks on Search button",
             "match": {
               "location": "SearchFunctionalitySD.clicks_on_Search_button()"
@@ -288,10 +340,10 @@
           },
           {
             "result": {
-              "duration": 125350900,
+              "duration": 122955800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 15,
             "name": "the user should see search results",
             "match": {
               "location": "SearchFunctionalitySD.the_user_should_see_search_results()"
@@ -301,8 +353,8 @@
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@tc_01"
+            "line": 10,
+            "name": "@tc_02"
           },
           {
             "line": 1,
@@ -311,7 +363,7 @@
         ]
       },
       {
-        "line": 21,
+        "line": 27,
         "name": "Filter",
         "description": "",
         "id": "open-cart-search-feature;filter",
@@ -320,10 +372,10 @@
         "steps": [
           {
             "result": {
-              "duration": 11418848800,
+              "duration": 11275107200,
               "status": "passed"
             },
-            "line": 22,
+            "line": 28,
             "name": "the user launches the chrome browser \u0026 opens application",
             "match": {
               "location": "SearchFilterSD.the_user_launches_the_chrome_browser_opens_application()"
@@ -332,10 +384,10 @@
           },
           {
             "result": {
-              "duration": 76955400,
+              "duration": 103374900,
               "status": "passed"
             },
-            "line": 23,
+            "line": 29,
             "name": "the user searches for the product\u0027s",
             "match": {
               "location": "SearchFilterSD.the_user_searches_the_his_product()"
@@ -344,10 +396,10 @@
           },
           {
             "result": {
-              "duration": 3353724200,
+              "duration": 3432395000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 30,
             "name": "Clicks on Search button, selects the sort by filter",
             "match": {
               "location": "SearchFilterSD.clicks_on_Search_button_Selects_the_the_sort_by_filter()"
@@ -356,10 +408,10 @@
           },
           {
             "result": {
-              "duration": 205690000,
+              "duration": 237059300,
               "status": "passed"
             },
-            "line": 25,
+            "line": 31,
             "name": "the user should see modified results",
             "match": {
               "location": "SearchFilterSD.the_user_should_see_modified_results()"
@@ -369,13 +421,13 @@
         ],
         "tags": [
           {
-            "line": 20,
-            "name": "@tc_02"
+            "line": 26,
+            "name": "@tc_03"
           }
         ]
       },
       {
-        "line": 28,
+        "line": 34,
         "name": "Products to Excel",
         "description": "",
         "id": "open-cart-search-feature;products-to-excel",
@@ -384,10 +436,10 @@
         "steps": [
           {
             "result": {
-              "duration": 11360760600,
+              "duration": 11971676700,
               "status": "passed"
             },
-            "line": 29,
+            "line": 35,
             "name": "the user launches the opens chrome and Application",
             "match": {
               "location": "SearchToExcelSD.the_user_launches_the_opens_chrome_and_Application()"
@@ -396,10 +448,10 @@
           },
           {
             "result": {
-              "duration": 73060200,
+              "duration": 114112500,
               "status": "passed"
             },
-            "line": 30,
+            "line": 36,
             "name": "the user searches for products",
             "match": {
               "location": "SearchToExcelSD.the_user_searches_for_products()"
@@ -408,10 +460,10 @@
           },
           {
             "result": {
-              "duration": 3226028400,
+              "duration": 2654824800,
               "status": "passed"
             },
-            "line": 31,
+            "line": 37,
             "name": "Clicks on Search Button",
             "match": {
               "location": "SearchToExcelSD.clicks_on_Search_Button()"
@@ -420,10 +472,10 @@
           },
           {
             "result": {
-              "duration": 1209953700,
+              "duration": 457227700,
               "status": "passed"
             },
-            "line": 32,
+            "line": 38,
             "name": "user should see results",
             "match": {
               "location": "SearchToExcelSD.user_should_see_results()"
@@ -433,13 +485,13 @@
         ],
         "tags": [
           {
-            "line": 27,
-            "name": "@tc_03"
+            "line": 33,
+            "name": "@tc_04"
           }
         ]
       },
       {
-        "line": 35,
+        "line": 41,
         "name": "Comparision Screenshot",
         "description": "",
         "id": "open-cart-search-feature;comparision-screenshot",
@@ -448,10 +500,10 @@
         "steps": [
           {
             "result": {
-              "duration": 10913084900,
+              "duration": 11661981600,
               "status": "passed"
             },
-            "line": 36,
+            "line": 42,
             "name": "the user launches the opens chrome \u0026 Application",
             "match": {
               "location": "SearchComparisionSD.the_user_launches_the_opens_chrome_Application()"
@@ -460,10 +512,10 @@
           },
           {
             "result": {
-              "duration": 95714400,
+              "duration": 135921600,
               "status": "passed"
             },
-            "line": 37,
+            "line": 43,
             "name": "the user searches for products on Application",
             "match": {
               "location": "SearchComparisionSD.the_user_searches_for_products_on_Application()"
@@ -472,10 +524,10 @@
           },
           {
             "result": {
-              "duration": 1618896200,
+              "duration": 1550842000,
               "status": "passed"
             },
-            "line": 38,
+            "line": 44,
             "name": "Clicks on search button",
             "match": {
               "location": "SearchComparisionSD.clicks_on_search_button()"
@@ -484,10 +536,10 @@
           },
           {
             "result": {
-              "duration": 232967800,
+              "duration": 231629400,
               "status": "passed"
             },
-            "line": 39,
+            "line": 45,
             "name": "Compares two products",
             "match": {
               "location": "SearchComparisionSD.compares_two_products()"
@@ -496,10 +548,10 @@
           },
           {
             "result": {
-              "duration": 2908587500,
+              "duration": 1972810200,
               "status": "passed"
             },
-            "line": 40,
+            "line": 46,
             "name": "the user should see results",
             "match": {
               "location": "SearchComparisionSD.the_user_should_see_results()"
@@ -509,13 +561,13 @@
         ],
         "tags": [
           {
-            "line": 34,
-            "name": "@tc_04"
+            "line": 40,
+            "name": "@tc_05"
           }
         ]
       },
       {
-        "line": 43,
+        "line": 49,
         "name": "List View",
         "description": "",
         "id": "open-cart-search-feature;list-view",
@@ -524,10 +576,10 @@
         "steps": [
           {
             "result": {
-              "duration": 12378003500,
+              "duration": 11685864300,
               "status": "passed"
             },
-            "line": 44,
+            "line": 50,
             "name": "the user launches the opens chrome \u0026 application",
             "match": {
               "location": "ListViewSD.the_user_launches_the_opens_chrome_application()"
@@ -536,10 +588,10 @@
           },
           {
             "result": {
-              "duration": 103628600,
+              "duration": 116740400,
               "status": "passed"
             },
-            "line": 45,
+            "line": 51,
             "name": "the user searches for products on application",
             "match": {
               "location": "ListViewSD.the_user_searches_for_products_on_application()"
@@ -548,10 +600,10 @@
           },
           {
             "result": {
-              "duration": 1552618400,
+              "duration": 1571776900,
               "status": "passed"
             },
-            "line": 46,
+            "line": 52,
             "name": "Clicks on search button and click on List View",
             "match": {
               "location": "ListViewSD.clicks_on_search_button_and_click_on_List_View()"
@@ -560,10 +612,10 @@
           },
           {
             "result": {
-              "duration": 2220328700,
+              "duration": 2243242400,
               "status": "passed"
             },
-            "line": 47,
+            "line": 53,
             "name": "Results should be viewed in List View",
             "match": {
               "location": "ListViewSD.results_should_be_viewed_in_List_View()"
@@ -573,8 +625,8 @@
         ],
         "tags": [
           {
-            "line": 42,
-            "name": "@tc_05"
+            "line": 48,
+            "name": "@tc_06"
           }
         ]
       }
@@ -583,7 +635,7 @@
     "description": "",
     "id": "open-cart-search-feature",
     "keyword": "Feature",
-    "uri": "src/main/resources/Features/DemoCartTestCase.feature",
+    "uri": "src/main/resources/Features/TestCase.feature",
     "tags": [
       {
         "line": 1,

@@ -7,10 +7,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/main/resources/Features/DemoCartTestCase.feature", plugin = { "pretty",
+@CucumberOptions(features = "src/main/resources/Features/TestCase.feature", plugin = { "pretty",
 		"html:reports/cucumber-html-report", "json:reports/cucumber-html-report/jsonreport",
 		"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html" }, tags = {
-				"@tc_01,@tc_02,@tc_03,@tc_04,@tc_05" }, glue = { "com.StepDefinations" }, monochrome = true)
+				"@tc01_Login,@tc_02,@tc_03,@tc_04,@tc_05,@tc_06" }, glue = { "com.StepDefinations" }, monochrome = true)
 public class TestRunner {
 
 	@AfterClass
